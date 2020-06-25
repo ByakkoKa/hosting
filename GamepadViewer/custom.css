@@ -22,8 +22,7 @@
     height: 300px;
     top: 108px;
     left: 118px;
-    background: url(stick-assets/stick.svgz);
-        background-size: auto;
+    background: url(base.svgz.svgz);
     background-size: 2700px;
 }
 .fight-stick .fstick.up.right {
