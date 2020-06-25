@@ -45,11 +45,11 @@
 .fight-stick .fstick.up.left {
     background-position-x: -2100px;
 }
-.fight-stick .triggers-button, .fight-stick .bumpers-button, .fight-stick .back, .fight-stick .start,
+.fight-stick .triggers-button, .fight-stick .bumpers, .fight-stick .back, .fight-stick .start,
 .fight-stick .button {
     background: #c1272d;
 }
-.fight-stick .trigger-button.pressed {
+.fight-stick .trigger-button.pressed, .fight-stick .bumpers.pressed, .fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .button.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
     background: #000;
