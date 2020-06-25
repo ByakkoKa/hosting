@@ -1,5 +1,10 @@
 .controller.fight-stick {
     background: url(base.svgz.svg) center no-repeat;
+    width: 300px;
+    height: 300px;
+    top: 108px;
+    left: 118px;
+    background-size: 2700px;
 }
 .fight-stick .arrows {
     top: 13px;
@@ -16,14 +21,6 @@
 }
 .fight-stick .quadrant {
     display: none;
-}
-.fight-stick .fstick {
-    width: 300px;
-    height: 300px;
-    top: 108px;
-    left: 118px;
-    background: url(base.svgz.svgz);
-    background-size: 2700px;
 }
 .fight-stick .fstick.up.right {
     background-position-x: -300px;
