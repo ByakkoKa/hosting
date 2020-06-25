@@ -2,10 +2,58 @@
     background: url(base.svgz.svg) center no-repeat;
 }
 .fight-stick .arrows {
-    top: -65px !important;
-    left: 405px !important;
+    top: 13px;
+    left: 304px;
 }
 .fight-stick .start {
-    bottom: auto !important;
+    bottom: auto;
     left: 114px;
+}
+.fight-stick .back {
+    float: left;
+    position: absolute;
+    left: -6px;
+}
+.fight-stick .quadrant {
+    display: none;
+}
+.fight-stick .fstick {
+    width: 300px;
+    height: 300px;
+    top: 108px;
+    left: 118px;
+    background: url(stick-assets/stick.svgz);
+        background-size: auto;
+    background-size: 2700px;
+}
+.fight-stick .fstick.up.right {
+    background-position-x: -300px;
+}
+.fight-stick .fstick.right {
+    background-position-x: -600px;
+}
+.fight-stick .fstick.down.right {
+    background-position-x: -900px;
+}
+.fight-stick .fstick.down {
+    background-position-x: -1200px;
+}
+.fight-stick .fstick.down.left {
+    background-position-x: -1500px;
+}
+.fight-stick .fstick.left {
+    background-position-x: -1800px;
+}
+.fight-stick .fstick.up.left {
+    background-position-x: -2100px;
+}
+.fight-stick .triggers-button, .fight-stick .bumpers-button, .fight-stick .back, .fight-stick .start,
+.fight-stick .button {
+    background: #c1272d;
+}
+.fight-stick .trigger-button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+    background: #000;
+    opacity: .75;
 }
