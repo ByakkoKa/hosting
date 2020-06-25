@@ -29,8 +29,6 @@
     background: #c1272d;
 }
 .fight-stick .trigger-button.pressed, .fight-stick .bumper.pressed, .fight-stick .back.pressed, .fight-stick .start.pressed, .fight-stick .button.pressed {
-    transform: translateY(5px);
-    -webkit-filter: invert(1);
     background: #000;
     opacity: .75;
 }
