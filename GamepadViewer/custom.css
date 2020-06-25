@@ -1,5 +1,7 @@
 .controller.fight-stick {
     background: url(base.svgz.svg) center no-repeat;
+}
+.fight-stick .fstick {
     width: 300px;
     height: 300px;
     top: 108px;
