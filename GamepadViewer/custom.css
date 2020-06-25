@@ -45,7 +45,7 @@
 .fight-stick .fstick.up.left {
     background-position-x: -2100px;
 }
-.fight-stick .triggers-button, .fight-stick .bumper, .fight-stick .back, .fight-stick .start,
+.fight-stick .trigger-button, .fight-stick .bumper, .fight-stick .back, .fight-stick .start,
 .fight-stick .button {
     background: #c1272d;
 }
